@@ -1,8 +1,10 @@
 #! /usr/local/bin/perl
 
-##################
-# HTTP POST Perl #
-##################
+######################################################
+# HTTP POST Perl
+# This script will post JSON data to todoCreate
+# which will create a todo item
+######################################################
 
 use strict;
 use warnings;
