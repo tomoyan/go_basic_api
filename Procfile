@@ -1,1 +1,1 @@
-web: go_basic_api -port=$PORT
+web: go_basic_api -port=5000
