@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/gorilla/mux"
+	"github.com/tomoyan/go_basic_api/Godeps/_workspace/src/github.com/gorilla/mux"
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {
