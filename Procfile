@@ -1,1 +1,1 @@
-web: go_basic_api
+web: go_basic_api -port=$PORT
