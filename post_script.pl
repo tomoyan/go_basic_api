@@ -13,7 +13,8 @@ use HTTP::Request::Common;
 
 my $ua = LWP::UserAgent->new;
 
-my $post_url = 'http://localhost:8080/todos';
+#my $post_url = 'http://localhost:8080/todos';
+my $post_url = 'http://quiet-woodland-5198.herokuapp.com/todos';
 
 my $datestring = localtime();
 my $post_data = '{"name":"New Todo '.$datestring.'"}';
